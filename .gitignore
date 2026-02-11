@@ -205,3 +205,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# OneDrive & System Junk
+Desktop.ini
+.tmp.drivedownload/
+.tmp.driveupload/
+
+# Compiled Files
+*.exe
+*.o
