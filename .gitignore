@@ -213,3 +213,4 @@ Desktop.ini
 # Compiled Files
 *.exe
 *.o
+.vscode/
