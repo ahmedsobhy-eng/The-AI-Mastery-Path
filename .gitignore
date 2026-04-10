@@ -214,3 +214,7 @@ Desktop.ini
 *.exe
 *.o
 .vscode/
+*.sqlite
+*.db
+__pycache__/
+*.pyc
