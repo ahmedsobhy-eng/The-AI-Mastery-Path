@@ -218,3 +218,4 @@ Desktop.ini
 *.db
 __pycache__/
 *.pyc
+*.sqlite-journal
