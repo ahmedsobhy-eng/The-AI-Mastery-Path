@@ -219,3 +219,5 @@ Desktop.ini
 __pycache__/
 *.pyc
 *.sqlite-journal
+*.data
+*.js
