@@ -220,4 +220,4 @@ __pycache__/
 *.pyc
 *.sqlite-journal
 *.data
-*.js
+*Where.js
