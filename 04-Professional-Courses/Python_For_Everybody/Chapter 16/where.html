@@ -1,0 +1,35 @@
+<html>
+
+<head>
+       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       <title>Python For Everybody Geodata Map</title>
+       <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" />
+       <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
+
+       <script src="where.js"></script>
+</head>
+
+<body>
+       <div id="map" style="width: 100%; height: 100%;"></div>
+       <script type="text/javascript">
+              // 1. رسم الخريطة الأساسية
+              var map = L.map('map').setView([30.0, 31.0], 2);
+              L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+              }).addTo(map);
+
+              // 2. اللف على البيانات اللي في myData ورسم الدبابيس
+              for (var i = 0; i < myData.length; i++) {
+                     var row = myData[i];
+                     L.marker([row[0], row[1]]).addTo(map)
+                            .bindPopup(row[2]);
+              }
+       </script>
+       <div style="position: absolute; bottom: 10px; left: 10px; z-index: 1000; background: white; padding: 5px;">
+              <h3>About the map</h3>
+              <p>Map generated at <span id="timestamp"></span></p>
+              <script>document.getElementById('timestamp').innerHTML = new Date().toString();</script>
+       </div>
+</body>
+
+</html>
