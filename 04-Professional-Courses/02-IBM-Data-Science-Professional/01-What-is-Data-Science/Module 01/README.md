@@ -10,3 +10,7 @@ In this module, I explored the foundational definitions of Data Science and what
 
 ## Goal
 To build a solid conceptual foundation before diving into technical tools and programming.
+
+Note: This module is focused on foundational concepts and theoretical frameworks. No code implementation was required.
+
+"I realized that Data Science is more about curiosity than just raw coding"
