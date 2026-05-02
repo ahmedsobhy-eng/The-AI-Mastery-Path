@@ -24,3 +24,28 @@ Loading Extensions: Always run %load_ext rpy2.ipython in a separate initializati
 Cell Magic Constraint: The %%R magic command must occupy the absolute first line of the cell. If preceded by Python code, it will trigger a UsageError.
 
 Data Passing: Used the -i flag to pass the Pandas DataFrame df from the Python environment into the R environment for statistical visualization.
+
+
+
+## Advanced Multi-Language Environment
+
+Polyglot Integration: Successfully integrated R into a Python 3.13.6 kernel using the rpy2 bridge.
+
+System Troubleshooting:
+
+Resolved UsageError by mastering Cell Magic syntax rules (first-line execution).
+
+Fixed critical LoadLibrary failure and DLL not found errors by manually configuring system environment variables (R_HOME and PATH) within the notebook.
+
+Data Visualization: Leveraged R's ggplot2 for high-fidelity plotting while maintaining data structures in Python Pandas.
+
+Environment Stability: Verified the transition from deprecated extensions (Polyglot Notebooks) to stable, library-based integration.
+
+
+ ### Technical Note: Line Ending Consistency
+
+Observation: Encountered Git warnings regarding LF to CRLF conversion during the staging process (git add .).
+
+Analysis: This is a standard behavior on Windows environments when handling files with Unix-style line endings.
+
+Resolution: Acknowledged the warning as harmless for cross-platform compatibility. Ensured that core.autocrlf is properly configured to maintain repository integrity across different operating systems.
