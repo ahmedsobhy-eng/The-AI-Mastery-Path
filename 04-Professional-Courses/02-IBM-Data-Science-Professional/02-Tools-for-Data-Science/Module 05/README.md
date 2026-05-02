@@ -49,3 +49,10 @@ Observation: Encountered Git warnings regarding LF to CRLF conversion during the
 Analysis: This is a standard behavior on Windows environments when handling files with Unix-style line endings.
 
 Resolution: Acknowledged the warning as harmless for cross-platform compatibility. Ensured that core.autocrlf is properly configured to maintain repository integrity across different operating systems.
+
+## Tachnical Note: Assignments in R
+<- (Assignment Operator): Used for creating and assigning values to objects/variables.
+
+= (Argument Passing): Primarily used inside functions to specify values for parameters.
+
+Visual Tip: Default R plots use black color, which may require manual color adjustment (col) when using dark-themed IDEs like VS Code.
