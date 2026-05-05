@@ -50,3 +50,39 @@ For the heart failure readmission problem, **Decision Tree Classification** was 
 * **Goal:** To predict a categorical outcome (Readmission: Yes or No).
 * **Advantages:** It provides an explicit "decision path" showing conditions leading to high risk, making it easy for medical staff to understand and apply.
 * **Structure:** It starts from a root node (Patient) and branches through split nodes (e.g., Exercise ability, Fatigue, Heart Failure status, Weight gain) to reach a leaf node (Y or N).
+
+## Stage 1: Business Understanding - Identifying Relevant Questions
+
+A critical part of Business Understanding is defining the right questions that align with the business goal. 
+
+### Case Study: E-commerce Pricing Optimization
+**Goal:** Maximize revenue and profitability by identifying patterns in sales data and customer behavior.
+
+#### Relevant Questions:
+* **Promotional Impact:** How do purchase behaviors change during promotional periods?
+* **Product Performance:** Which products had the highest sales volumes and what are their profit margins?
+* **Customer Behavior:** How do ratings, reviews, and demographics influence price sensitivity and purchase decisions?
+* **Technical Context:** What is the historical website traffic and preferred payment methods?
+
+#### Non-Relevant Questions:
+* Internal organizational structure or marketing department headcount.
+* Indirect expenses like spending on office supplies.
+
+
+
+### 5. Identifying Patterns to Address Questions (Delivery Case Study)
+In this module, we explored how different analytical models address specific delivery-related questions:
+
+#### A. Descriptive Model (Focuses on "What is happening?")
+* Analyzes average delivery costs across different routes and time variations.
+* Gathers insights on delivery times per vehicle type and route complexity.
+* Identifies busiest delivery days and peak/off-peak route variations based on historical data.
+
+#### B. Classification Model (Focuses on "Which category?")
+* Classifies delivery schedules into specific time slots to balance workload and minimize delays.
+* Groups delivery routes into categories based on average delivery time and order volume.
+
+#### C. Clustering Model (Focuses on "Finding natural groups")
+* Groups delivery regions based on customer density and order frequency to optimize planning.
+* Clusters customer locations for efficient routing without explicitly making predictions from past data.
+* Determines suitable delivery routes for specific goods like perishable items to ensure timely delivery.
