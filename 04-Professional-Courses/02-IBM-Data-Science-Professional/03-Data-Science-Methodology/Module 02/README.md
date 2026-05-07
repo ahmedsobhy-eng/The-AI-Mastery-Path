@@ -37,3 +37,20 @@ Data Science is not a linear process; it is highly **iterative**. This means we 
 * **Case Study Example:** In the CHF project, the team didn't get the definition of "CHF admission" right the first time. 
 * **Refinement:** It took multiple cycles (Cycle 1, Cycle 2, Cycle 3) of diagnosing, planning, acting, and evaluating to reach a refined and accurate definition of what constitutes a heart failure admission.
 * **Key Takeaway:** Be prepared to revisit previous stages as your understanding of the data grows.
+
+
+## Stage 2: Data Preparation
+
+Data Preparation is the most time-consuming stage of a data science project, often taking up **70% to 90%** of the total project time. Its goal is to transform raw data into a clean format that the analytical model can process.
+
+### 1. Key Tasks in Data Preparation:
+* **Cleaning:** Handling missing values, removing duplicates, and correcting invalid data.
+* **Transforming:** Changing data formats or creating new variables (Feature Engineering).
+* **Sorting & Filtering:** Organizing data to focus on the defined cohort.
+* **Aggregating:** Combining multiple records into a single summarized format (e.g., one record per patient).
+
+### 2. The "Chef" Analogy
+Just as a chef spends most of their time washing, chopping, and preparing ingredients before the actual cooking begins, a data scientist spends the majority of their time preparing data before "cooking" it in the model.
+
+### 3. Iterative Feedback Loop
+This stage often reveals gaps in the data, requiring the data scientist to go back to the **Data Collection** or **Data Understanding** stages to gather more information or refine the requirements.
