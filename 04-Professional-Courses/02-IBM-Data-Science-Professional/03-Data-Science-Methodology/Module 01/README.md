@@ -127,3 +127,10 @@ In real-world projects, some desired data might be unavailable. A data scientist
 * **Reality Check:** These records were inaccessible at the time of the study.
 * **Strategic Decision:** The team decided to **defer** (postpone) the requirement for this specific data.
 * **Key Lesson:** Data science is an iterative and flexible process. If a data source is missing, you must evaluate if you can proceed without it or if you need to find an alternative.
+
+### 3. Merging Data & Eliminating Redundancy
+After gathering data from various sources (Corporate Warehouse, Inpatient Systems, etc.), the next critical step is integration:
+
+* **Merging Sources:** Data from different systems (Source A, Source B) must be combined into a single unified dataset (Target C).
+* **Eliminating Redundancy:** We must identify and remove duplicate information (Redundant data) to ensure each piece of data is unique and doesn't bias the model.
+* **Handling Conflicts:** During merging, conflicts between data sources may arise (e.g., different formats or conflicting values for the same patient). These must be resolved to maintain data integrity.
