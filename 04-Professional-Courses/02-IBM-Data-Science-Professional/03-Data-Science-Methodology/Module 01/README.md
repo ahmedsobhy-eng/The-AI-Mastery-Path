@@ -86,3 +86,17 @@ In this module, we explored how different analytical models address specific del
 * Groups delivery regions based on customer density and order frequency to optimize planning.
 * Clusters customer locations for efficient routing without explicitly making predictions from past data.
 * Determines suitable delivery routes for specific goods like perishable items to ensure timely delivery.
+## Stage 3: Data Requirements
+
+Once the analytic approach is selected, we must identify the necessary data content, formats, and sources for the model.
+
+### Case Study: Selecting the Cohort
+In the CHF readmission project, we defined a **cohort** (a specific group of subjects) to ensure data quality and relevance.
+
+#### 1. Inclusion Criteria:
+* **Service Area:** Patients must be inpatients within the health insurance provider’s service area.
+* **Primary Diagnosis:** Must have a primary diagnosis of CHF within a one-year period.
+* **History:** Must have continuous enrollment for at least 6 months prior to the primary CHF admission (to ensure sufficient historical data).
+
+#### 2. Exclusion Criteria:
+* **Disqualifying Conditions:** Patients with certain conditions (e.g., terminal illnesses) are excluded to prevent "noise" and ensure the model focuses specifically on heart failure-related readmissions.
