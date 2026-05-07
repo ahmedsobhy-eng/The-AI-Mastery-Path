@@ -61,3 +61,10 @@ Feature engineering is one of the most critical tasks in data preparation. It in
 * **Definition:** The process of transforming raw data into features that better represent the underlying problem to the predictive models.
 * **Why it matters:** Raw data is often not in the best format for a model. By creating new, meaningful variables, we can significantly improve the model's accuracy.
 * **Domain Knowledge:** You must understand the field (e.g., Medicine, Finance, or Sports) to know which features are likely to be important and how to combine them.
+
+
+### 5. Defining the Target Variable
+In the CHF case study, defining the "Target Variable" was a key step in data preparation.
+* **Target Variable:** Congestive Heart Failure (CHF) readmission within **30 days** following discharge.
+* **Why 30 days?** This is the industry-standard timeframe used to measure hospital performance and quality of care. 
+* **Model Outcome:** The model is trained to predict a binary outcome (Yes/No) based on this 30-day window.
