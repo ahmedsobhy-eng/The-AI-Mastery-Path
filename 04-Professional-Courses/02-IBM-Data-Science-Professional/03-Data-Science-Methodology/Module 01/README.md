@@ -119,3 +119,11 @@ For the heart failure project, data was sourced from multiple corporate systems 
 * **Disease Management Program Information:** Offers insights into specific programs patients participated in to manage their conditions.
 
 *Note: Data collection often requires identifying gaps; if necessary data is missing, the data scientist may need to revise the requirements or find new sources.*
+
+### 2. Handling Inaccessible Data
+In real-world projects, some desired data might be unavailable. A data scientist must decide how to proceed when facing data gaps.
+
+* **Challenge:** In the CHF case study, the team wanted to include **Pharmaceutical records**.
+* **Reality Check:** These records were inaccessible at the time of the study.
+* **Strategic Decision:** The team decided to **defer** (postpone) the requirement for this specific data.
+* **Key Lesson:** Data science is an iterative and flexible process. If a data source is missing, you must evaluate if you can proceed without it or if you need to find an alternative.
