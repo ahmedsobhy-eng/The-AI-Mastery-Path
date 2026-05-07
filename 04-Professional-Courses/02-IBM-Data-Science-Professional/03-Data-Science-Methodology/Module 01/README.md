@@ -100,3 +100,8 @@ In the CHF readmission project, we defined a **cohort** (a specific group of sub
 
 #### 2. Exclusion Criteria:
 * **Disqualifying Conditions:** Patients with certain conditions (e.g., terminal illnesses) are excluded to prevent "noise" and ensure the model focuses specifically on heart failure-related readmissions.
+### 3. Defining the Data
+To ensure the data is suitable for the **Decision Tree Classifier**, we focus on its structure and content:
+* **Record Structure:** Data must be organized as one record per patient, with columns representing the dependent variable (outcome) and predictors (features).
+* **Comprehensive History:** The content should cover all aspects of each patient's clinical history to provide a full picture.
+* **Data Transformation:** Initially, data may be in a transactional format and will require transformations to be compatible with the analytical model.
