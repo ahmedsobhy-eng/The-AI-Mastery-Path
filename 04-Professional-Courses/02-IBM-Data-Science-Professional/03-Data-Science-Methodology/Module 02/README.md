@@ -1,5 +1,5 @@
 # Module 2
-## Stage 1: Data Understanding
+## Stage 5: Data Understanding
 
 In this stage, the data scientist evaluates the initial data to ensure it can address the defined questions.
 
@@ -39,7 +39,7 @@ Data Science is not a linear process; it is highly **iterative**. This means we 
 * **Key Takeaway:** Be prepared to revisit previous stages as your understanding of the data grows.
 
 
-## Stage 2: Data Preparation
+## Stage 6: Data Preparation
 
 Data Preparation is the most time-consuming stage of a data science project, often taking up **70% to 90%** of the total project time. Its goal is to transform raw data into a clean format that the analytical model can process.
 
@@ -54,3 +54,10 @@ Just as a chef spends most of their time washing, chopping, and preparing ingred
 
 ### 3. Iterative Feedback Loop
 This stage often reveals gaps in the data, requiring the data scientist to go back to the **Data Collection** or **Data Understanding** stages to gather more information or refine the requirements.
+
+### 4. Feature Engineering: Using Domain Knowledge
+Feature engineering is one of the most critical tasks in data preparation. It involves using **domain knowledge** (expertise in the specific field) to create new features that help machine learning algorithms work more effectively.
+
+* **Definition:** The process of transforming raw data into features that better represent the underlying problem to the predictive models.
+* **Why it matters:** Raw data is often not in the best format for a model. By creating new, meaningful variables, we can significantly improve the model's accuracy.
+* **Domain Knowledge:** You must understand the field (e.g., Medicine, Finance, or Sports) to know which features are likely to be important and how to combine them.
