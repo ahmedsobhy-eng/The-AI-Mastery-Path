@@ -29,3 +29,11 @@ To ensure the data is "fit for use," we check it against several dimensions:
 * **Timeliness:** Is the data up-to-date?
 * **Clarity:** Is the data easy to interpret and understand?
 * **Accessibility:** Can we actually get to and use the data?
+
+### 4. The Iterative Nature of Data Science
+Data Science is not a linear process; it is highly **iterative**. This means we often move back and forth between stages to refine our work.
+
+* **The Loop:** We constantly cycle through Data Collection and Data Understanding.
+* **Case Study Example:** In the CHF project, the team didn't get the definition of "CHF admission" right the first time. 
+* **Refinement:** It took multiple cycles (Cycle 1, Cycle 2, Cycle 3) of diagnosing, planning, acting, and evaluating to reach a refined and accurate definition of what constitutes a heart failure admission.
+* **Key Takeaway:** Be prepared to revisit previous stages as your understanding of the data grows.
