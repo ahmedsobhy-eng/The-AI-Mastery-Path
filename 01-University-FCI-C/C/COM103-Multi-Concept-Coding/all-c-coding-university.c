@@ -61,12 +61,12 @@ int main()
        printf("Difference is: %d\n", calculateDiff(max, min)); // Call function [cite: 15]
        return 0;
 }
-int sum(int n)
-{
-       if (n <= 0)
-              return 0;
-       return n + sum(n - 1); // Recursive call
-}
+//int sum(int n)
+//{
+       //if (n <= 0)
+      //        return 0;
+     //  return n + sum(n - 1); // Recursive call
+//}
 
 int isPrime(int n, int i)
 {
@@ -727,11 +727,11 @@ int main()
 // sheet 6(Pointers, Strings, & Unions) //
 int num = 25;
 int *ptr = &num;
-printf("Value: %d", *ptr);
+//printf("Value: %d", *ptr);
 
 
 char *name = "Ahmed Sobhy";
-printf("Name: %s", name);
+//printf("Name: %s", name);
 
 void calcFuel(float miles, float totalFuel, float *perMile)
 {
@@ -740,22 +740,22 @@ void calcFuel(float miles, float totalFuel, float *perMile)
 
 int a[5] = {1, 2, 3, 4, 5}, sum = 0;
 int *ptr = a, *sPtr = &sum;
-for (int i = 0; i < 5; i++)
-{
-       printf("%d ", *(ptr + i)); // [cite: 256]
-       *sPtr += *(ptr + i);       // [cite: 258]
-}
+//for (int i = 0; i < 5; i++)
+//{
+       //printf("%d ", *(ptr + i)); // [cite: 256]
+       //*sPtr += *(ptr + i);       // [cite: 258]
+//}
 
-int getGreatest(int *arr, int n)
-{
-       int max = *arr;
-       for (int i = 1; i < n; i++)
-       {
-              if (*(arr + i) > max)
-                     max = *(arr + i);
-       }
-       return max; // [cite: 261]
-}
+//int getGreatest(int *arr, int n)
+//{
+       //int max = *arr;
+       //for (int i = 1; i < n; i++)
+       //{
+             // if (*(arr + i) > max)
+                  //   max = *(arr + i);
+      // }
+       //return max; // [cite: 261]
+//}
 
 struct Person
 {
