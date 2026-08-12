@@ -68,3 +68,5 @@ In the CHF case study, defining the "Target Variable" was a key step in data pre
 * **Target Variable:** Congestive Heart Failure (CHF) readmission within **30 days** following discharge.
 * **Why 30 days?** This is the industry-standard timeframe used to measure hospital performance and quality of care. 
 * **Model Outcome:** The model is trained to predict a binary outcome (Yes/No) based on this 30-day window.
+
+
