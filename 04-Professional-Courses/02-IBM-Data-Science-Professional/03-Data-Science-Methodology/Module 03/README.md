@@ -151,3 +151,27 @@
 * **Clear:** Eliminates noise and presents complex analytical insights in an easily digestible format.
 * **Concise:** Focuses directly on key findings and core recommendations without overwhelming the audience.
 * **Compelling:** Combines visual design, logical narrative, and empirical evidence to build a strong case that convinces leadership to take action.
+
+
+
+## Methodology Framework — CRISP-DM Overview
+
+### 1. What is CRISP-DM?
+* **Definition:** **CR**oss-**I**ndustry **S**tandard **P**rocess for **D**ata **M**ining.
+* **Core Purpose:** An industry-standard, iterative framework that structures the lifecycle of data science and machine learning projects.
+
+---
+
+### 2. The 6 Core Phases
+* **Business Understanding:** Define business goals, translate them into a data science problem statement, and construct a project plan.
+* **Data Understanding:** Acquire data, evaluate data quality, and identify initial insights/patterns.
+* **Data Preparation:** Clean raw data, handle missing values, transform variables, and prepare final datasets for modeling.
+* **Modeling:** Select modeling techniques, calibrate parameters, and build predictive algorithms.
+* **Evaluation:** Thoroughly assess model results against business criteria to decide whether to deploy or iterate further.
+* **Deployment:** Deploy the model into production systems, deliver findings, and monitor ongoing performance.
+
+---
+
+### 3. CRISP-DM vs. IBM Methodology
+* **Streamlined Pipeline:** CRISP-DM consolidates IBM's 10-step methodology into 6 broader phases.
+* **Data Phase Aggregation:** Integrates IBM’s *Data Requirements*, *Data Collection*, and *Data Understanding* into a single unified **Data Understanding** stage.
